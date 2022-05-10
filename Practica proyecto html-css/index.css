@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2.0em;
+}
+
+h3 {
+    font-size: 2.0em;
+}
+
+h4 {
+    font-size: 2.0em;
+}
+
+h5 {
+    font-size: 2.0em;
+}
+
+h6 {
+    font-size: 2.0em;
+}
+
+p {
+    font-size: 1.0em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 0.8em;
+}
+
+button {
+    font-size: 1.0em;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px;
+    color: white;
+    background-color: orangered;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.font-color {
+    color: orangered;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    
+    
+    
+
+
+
+
+}
+
+header .logo {
+    background-image: url(media/logoseguro.png);
+    margin: 0px;
+    padding: 20px 30px;
+    font-weight: bold;
+    font-size: 2.0em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+a[href^="tel:"]:before {
+    content: "\260E";
+    display:block;
+    margin-right: 10px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+}
+
+header a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover {
+    color: orangered;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("media/fotoseguro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+#hero h1 {
+    color: white;
+    text-align: center;
+
+}
+#final h2 {
+    font-size: 9vw;
+}
+
+footer {
+    background-color: rgb(230 230 230);
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+}
+
+footer .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+    
+    
+   
+    
+    
+    
+    
+
